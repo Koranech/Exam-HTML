@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~Header~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+header {
+    width: 100%;
+    height: 86px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
+    padding-top: 20px;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0px #D7D7D740;
+}
+
+header h2 {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #001858;
+}
+
+header h2 span {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #6246EA;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+nav ul li {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+nav ul li img {
+    padding-right: 10px;
+}
+
+nav button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 213px;
+    height: 44px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-right: 17px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    background: #6246EA;
+
+}
+
+nav button p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #FFFFFE;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~Main~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+main {
+    width: 100%;
+    height: 814px;
+    background: #EFF0F3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 116px;
+    padding: 185px 94px 284px 94px;
+}
+
+main aside {
+    position: relative;
+    width: 664px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main aside h1 {
+    width: 617px;
+    opacity: 1;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+main aside p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #9A9494;
+}
+
+main aside .absolute {
+    position: absolute;
+    color: #2B2C34;
+    font-size: 50px;
+    top: 184px;
+    left: -1px;
+}
+
+main aside p span {
+    color: #EFF0F3;
+}
+
+form {
+    display: flex;
+    gap: 20px;
+}
+
+input[type=text] {
+    width: 444px;
+    height: 67px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    padding-top: 21px;
+    padding-right: 200px;
+    padding-bottom: 21px;
+    padding-left: 25px;
+    background: #FFFFFE;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2B2C34;
+}
+
+input[type=text]:focus {
+    outline: none;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2B2C34;
+}
+
+input[type=text]::placeholder {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #C0C0C0;
+}
+
+input[type=submit] {
+    width: 145px;
+    height: 67px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-right: 23px;
+    padding-bottom: 19px;
+    padding-left: 23px;
+    background: #6246EA;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFE;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~Under_main~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.under_main {
+    width: 100%;
+    height: 500px;
+    background: #EFF0F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 67px 94px;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 94px;
+}
+
+.text .span-1 {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+.text .span-2 {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+.under_main .blocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 37px;
+}
+
+.under_main .block {
+    width: 220px;
+    height: 280px;
+    border: none;
+    border-radius: 8px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0px #D7D7D740;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 30px;
+}
+
+.under_main .block p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #232323;
+}
+
+.under_main .block img {
+    width: 60px;
+    height: 60px;
+}
+
+.under_main .focus {
+    background: #6246EA;
+    box-shadow: 4px 6px 13px 0px #71717140;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~Course_info~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.course_info {
+    width: 1252px;
+    height: 2344px;
+    gap: 80px;
+    margin: 80px 94px;
+    display: flex;
+    flex-direction: column;
+}
+
+.none_pudding {
+    padding: 0;
+}
+
+.course_info .info {
+    width: 100%;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.course_info .blocks {
+    width: 100%;
+    height: 425px;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.course_info .block {
+    width: 300px;
+    height: 425px;
+    border: none;
+    border-radius: 12px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0px #D7D7D740;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course_info .info-1 {
+    width: 262px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.course_info .info-1 p {
+    width: 100%;
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+.course_info .info-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.course_info .info-2 .about_person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.course_info .info-2 p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2B2C34;
+}
+
+.course_info .info-2 span {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+.course_info .more {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.course_info .more button {
+    width: 165px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    gap: 10px;
+    background: #6246EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course_info .more p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFE;
+
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~Subscribe~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.subscribe {
+    width: 100%;
+    height: 453px;
+    gap: 30px;
+    padding-top: 58px;
+    padding-right: 372px;
+    padding-bottom: 58px;
+    padding-left: 372px;
+    background: #EFF0F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe h2 {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+.subscribe p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~Links~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.links {
+    width: 100%;
+    height: 365px;
+    background: #E4E5E9;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 60px 95px;
+    gap: 160px;
+
+}
+
+.links .left {
+    width: 284px;
+    height: 138px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links .left h3 {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #001858;
+}
+
+.links .left h3 span {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #6246EA;
+}
+
+.links .left p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B2C34;
+}
+
+.links .left .icons {
+    width: 190px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.links .left .icons .bigger {
+    width: 30px;
+    height: 30px;
+}
+
+.links .left .icons img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.links .right {
+    display: flex;
+    flex-direction: row;
+    gap: 95px;
+}
+
+.links .right .points {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.links .right h3 {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #2B2C34;
+}
+
+.links .right p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B2C34;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+footer {
+    width: 100%;
+    height: 70px;
+    background: #E4E5E9;
+    padding: 50px 95px;
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+footer hr {
+    border: 0.2px solid #C0C0C0;
+}
+
+footer p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2B2C34;
+}
