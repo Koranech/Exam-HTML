@@ -17,7 +17,7 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 300px;
-    padding-top: 20px;
+    padding: 20px 0;
     background: #EFF0F3;
     box-shadow: 4px 6px 13px 0px #D7D7D740;
 }
